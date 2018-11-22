@@ -1,0 +1,16 @@
+{
+  "name": "monaca-pwa-template-minimum",
+  "displayName": "Monaca PWA Template Minimum",
+  "dependencies": {
+    "firebase-tools": "^6.1.1",
+    "gh-pages": "^2.0.1",
+    "superagent": "^4.0.0"
+  },
+  "scripts": {
+    "monaca:preview": "npm run dev",
+    "dev": "browser-sync start --no-open -s www/ --watch --port 8080 --ui-port 8081"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.5"
+  }
+}
